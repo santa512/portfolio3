@@ -6,8 +6,6 @@ import Contact from './sections/Contact.jsx';
 import Clients from './sections/Clients.jsx';
 import Projects from './sections/Projects.jsx';
 import WorkExperience from './sections/Experience.jsx';
-import { SpeedInsights } from '@vercel/speed-insights/next';
-import { Analytics } from '@vercel/analytics/react';
 
 const App = () => {
   return (
@@ -20,8 +18,6 @@ const App = () => {
       <WorkExperience />
       <Contact />
       <Footer />
-      <SpeedInsights />
-      <Analytics />
     </main>
   );
 };
